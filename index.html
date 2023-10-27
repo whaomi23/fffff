@@ -1,0 +1,264 @@
+<html lang="es">
+<head>
+  <title>Atributos — &lt;select&gt; — HTML</title>
+  <meta charset="utf-8">
+  </head>
+
+  <style>
+	  body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 10px 50px 100px;
+      background-color: #e0692f;
+      color: #ffffff;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+    }
+ .select-container {
+      width: 650px;
+      margin: auto;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .select-container + .select-container {
+      margin-top: 50px;
+    }
+
+    .select-label {
+      margin-right: 35px;
+      padding: 10px 0;
+      flex-grow: 1;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1;
+      text-align: right;
+    }
+
+    .select {
+      position: relative;
+      width: 400px;
+      border: 1px solid #ffffff;
+      border-radius: 6px;
+      background-color: #18191c;
+      color: #ffffff;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: 300;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    .select:disabled {
+      cursor: not-allowed;
+    }
+
+    .select:focus {
+      border: 1px solid #ff8630;
+      outline: none;
+    }
+
+    .select-wrapper {
+    }
+
+    .select-wrapper::after {
+      content: "";
+      position: absolute;
+      top: calc(50% - 4px);
+      right: 15px;
+      width: 14px;
+      height: 8px;
+      background-image: url("images/arrow-down.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+    }
+
+    option {
+      font-weight: inherit;
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    .select-single {
+      padding: 10px 15px;
+    }
+
+    .select-multi {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    } 
+	
+	.preguntas {
+		justify-content: center;
+	}
+
+     .text {
+		 font-size: 20px;
+		 text-align: center;
+		 font-family: Arial, Helvetica, sans-serif;
+	 }
+
+  </style>
+<body>
+  <form class="select-form">
+    
+      <div class="select-wrapper">
+		<div class="select-container">
+			<label class="select-label" for="city-select"></label>
+			<div class="Preguntas">
+				<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+			</div>
+		</div>
+        <select class="select select-single" name="city" id="city-select">
+          <option value="tokio">Tokio</option>
+          <option value="delhi">Delhi</option>
+          <option value="shanghai" selected="">Shanghai</option>
+          <option value="cairo">Cairo</option>
+          <option value="osaka">Osaka</option>
+          <option value="paris">París</option>
+        </select>
+      </div>
+    </div>
+     <br>
+	 <br>
+
+	 <div class="select-container">
+		<label class="select-label" for="city-select"></label>
+		<div class="Preguntas">
+			<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+		</div>
+	</div>
+	<select class="select select-single" name="city" id="city-select">
+	  <option value="tokio">Tokio</option>
+	  <option value="delhi">Delhi</option>
+	  <option value="shanghai" selected="">Shanghai</option>
+	  <option value="cairo">Cairo</option>
+	  <option value="osaka">Osaka</option>
+	  <option value="paris">París</option>
+	</select>
+  </div>
+
+  <div class="select-container">
+	<label class="select-label" for="city-select"></label>
+	<div class="Preguntas">
+		<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+	</div>
+</div>
+<select class="select select-single" name="city" id="city-select">
+  <option value="tokio">Tokio</option>
+  <option value="delhi">Delhi</option>
+  <option value="shanghai" selected="">Shanghai</option>
+  <option value="cairo">Cairo</option>
+  <option value="osaka">Osaka</option>
+  <option value="paris">París</option>
+</select>
+</div>
+
+
+<div class="select-container">
+	<label class="select-label" for="city-select"></label>
+	<div class="Preguntas">
+		<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+	</div>
+</div>
+<select class="select select-single" name="city" id="city-select">
+  <option value="tokio">Tokio</option>
+  <option value="delhi">Delhi</option>
+  <option value="shanghai" selected="">Shanghai</option>
+  <option value="cairo">Cairo</option>
+  <option value="osaka">Osaka</option>
+  <option value="paris">París</option>
+</select>
+</div>
+
+<div class="select-container">
+	<label class="select-label" for="city-select"></label>
+	<div class="Preguntas">
+		<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+	</div>
+</div>
+<select class="select select-single" name="city" id="city-select">
+  <option value="tokio">Tokio</option>
+  <option value="delhi">Delhi</option>
+  <option value="shanghai" selected="">Shanghai</option>
+  <option value="cairo">Cairo</option>
+  <option value="osaka">Osaka</option>
+  <option value="paris">París</option>
+</select>
+</div>
+
+
+<div class="select-container">
+	<label class="select-label" for="city-select"></label>
+	<div class="Preguntas">
+		<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+	</div>
+</div>
+<select class="select select-single" name="city" id="city-select">
+  <option value="tokio">Tokio</option>
+  <option value="delhi">Delhi</option>
+  <option value="shanghai" selected="">Shanghai</option>
+  <option value="cairo">Cairo</option>
+  <option value="osaka">Osaka</option>
+  <option value="paris">París</option>
+</select>
+</div>
+
+
+<div class="select-container">
+	<label class="select-label" for="city-select"></label>
+	<div class="Preguntas">
+		<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+	</div>
+</div>
+<select class="select select-single" name="city" id="city-select">
+  <option value="tokio">Tokio</option>
+  <option value="delhi">Delhi</option>
+  <option value="shanghai" selected="">Shanghai</option>
+  <option value="cairo">Cairo</option>
+  <option value="osaka">Osaka</option>
+  <option value="paris">París</option>
+</select>
+</div>
+
+<div class="select-container">
+	<label class="select-label" for="city-select"></label>
+	<div class="Preguntas">
+		<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+	</div>
+</div>
+<select class="select select-single" name="city" id="city-select">
+  <option value="tokio">Tokio</option>
+  <option value="delhi">Delhi</option>
+  <option value="shanghai" selected="">Shanghai</option>
+  <option value="cairo">Cairo</option>
+  <option value="osaka">Osaka</option>
+  <option value="paris">París</option>
+</select>
+</div>
+
+
+<div class="select-container">
+	<label class="select-label" for="city-select"></label>
+	<div class="Preguntas">
+		<p class="text">¿ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss?</p>
+	</div>
+</div>
+<select class="select select-single" name="city" id="city-select">
+  <option value="tokio">Tokio</option>
+  <option value="delhi">Delhi</option>
+  <option value="shanghai" selected="">Shanghai</option>
+  <option value="cairo">Cairo</option>
+  <option value="osaka">Osaka</option>
+  <option value="paris">París</option>
+</select>
+</div>
+
+  </form>
+
+
+</body></html>
